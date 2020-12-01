@@ -1,0 +1,113 @@
+body {
+  font-size: 20px;
+  font-family: "Goldman", cursive;
+
+  background-image: url(../images/background.jpg);
+}
+
+.font-test1 {
+  font-family: "hardware requiem italic";
+}
+
+#top-menu {
+  display: flex;
+  justify-content: space-between;
+}
+
+#desktop-menu {
+  display: none;
+}
+
+#burger-icon {
+  width: 40px;
+  height: 40px;
+  background-color: black;
+  align-self: center;
+  margin-right: 10px;
+}
+
+#test-menu {
+  width: 100%;
+  text-align: center;
+}
+
+#test-menu li a {
+  display: block;
+  padding: 5px;
+  margin: 5px;
+
+  color: #db1f99;
+}
+
+#test-menu li {
+  color: #db1f99;
+}
+
+#logo {
+  width: 200px;
+  margin-left: 10px;
+}
+
+footer {
+  padding: 10px 10px;
+}
+
+.footer-social-icons ul img {
+  width: 50px;
+  margin-top: 25px;
+}
+.footer-social-icons ul {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-social-icons li {
+  margin: 0 30px;
+}
+
+/* MEDIA START ---------------------------------------------------------------------*/
+@media only screen and (min-width: 700px) {
+  #burger-icon {
+    display: none;
+  }
+  #desktop-menu {
+    display: block;
+    display: flex;
+  }
+
+  #desktop-menu li {
+    margin: 6px;
+    font-size: 0.6em;
+    padding: 5px;
+    margin-top: 20px;
+    font-weight: bold;
+  }
+
+  #desktop-menu li a {
+    color: #db1f99;
+  }
+}
+
+.menu-underline {
+  text-decoration: underline;
+}
+
+@media only screen and (min-width: 1024px) {
+  #desktop-menu li {
+    align-self: center;
+    background-color: #db1f99;
+    font-size: 0.8em;
+    width: 120px;
+    text-align: center;
+    border-radius: 4px;
+    box-shadow: 4px 4px;
+  }
+  #desktop-menu li a {
+    text-decoration: none;
+    color: white;
+  }
+}
+
+/*  mobil skift til desktop !!! */
+
+/* MEDIA SLUT ---------------------------------------------------------------------*/
